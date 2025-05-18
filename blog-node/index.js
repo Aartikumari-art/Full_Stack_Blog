@@ -45,7 +45,7 @@ require("dotenv").config();
 
 const mongoose = require("mongoose");
 
-const dbUri = process.env.LOCAL_DB;
+const dbUri = process.env.ATLASH_DB;
 
 if (!dbUri) {
   console.error(
